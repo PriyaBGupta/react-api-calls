@@ -1,0 +1,12 @@
+import React , {Component} from 'react';
+class Post extends Component {
+    state = {
+        posts:[],
+        selectedPost : null
+    }
+    render() {
+        <section className="Posts">
+            {posts}
+        </section>
+    }
+}
